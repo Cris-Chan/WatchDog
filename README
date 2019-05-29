@@ -1,0 +1,8 @@
+This is very small nodeJS i made right after i saw it in a movie.
+ideally it will text you every 24 days (should be configured to what you want) to see if your ok
+if you are not able to respond by the second message it will send a server message and should text out any information you want!
+maybe even tweet, really up to you :)
+It uses the Twilio api to be able to send and receive sms messages, BUT
+for it to work properly and handle responses the webserver does need to be hosted on the internet
+- ngrok is what i used during testing -
+and you public url of the nodeJS server needs to be added to called within your Twilio account.
